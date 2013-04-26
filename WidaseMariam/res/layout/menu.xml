@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dengel_mariam"
+    android:orientation="vertical"
+    android:padding="25dp" >
+
+    <ImageButton
+        android:id="@+id/ibMonday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/icon_monday"
+        android:contentDescription="Monday" />
+
+    <ImageButton
+        android:id="@+id/ibTuesday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/icon_tuesday" 
+        android:contentDescription="Tuesday" />
+    
+    <ImageButton
+        android:id="@+id/ibWednesday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/icon_wednesday" 
+        android:contentDescription="Wednesday" />
+
+    <ImageButton
+        android:id="@+id/ibThursday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/icon_monday" 
+        android:contentDescription="Thursday" />
+
+    <ImageButton
+        android:id="@+id/ibFriday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/icon_tuesday" 
+        android:contentDescription="Friday" />
+
+    <ImageButton
+        android:id="@+id/ibSaturday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/icon_wednesday" 
+        android:contentDescription="Saturday" />
+
+    <ImageButton
+        android:id="@+id/ibSunday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/icon_monday" 
+        android:contentDescription="Sunday" />
+
+</LinearLayout>
